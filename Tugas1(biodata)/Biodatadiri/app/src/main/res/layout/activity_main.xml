@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="12dp"
+        android:text="Nama"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="12dp"
+        android:text=":  Ayu Puspitasari"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toEndOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="12dp"
+        android:text="NIM "
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toStartOf="@+id/textView23"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="12dp"
+        android:text=":  A11.2020.12754"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="12dp"
+        android:text="Status"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toStartOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="12dp"
+        android:text=":  Aktif"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="12dp"
+        android:text="Dosen Wali "
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintEnd_toStartOf="@+id/textView28"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="12dp"
+        android:text=":  Erwin Yudi Hidayat, S.Kom, M.CS"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="12dp"
+        android:text="Nomor HP"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView30"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="12dp"
+        android:text=":  08532629xxxx"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView32"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="268dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="12dp"
+        android:text=":  111202012754@mhs.dinus.ac.id"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="216dp"
+        android:text="Agama "
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView34"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="216dp"
+        android:text=":  Islam "
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="12dp"
+        android:text="Email"
+        app:autoSizeMaxTextSize="17dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toStartOf="@+id/textView32"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="154dp"
+        android:layout_height="154dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/PasFOTO" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:autoText="true"
+        android:background="#8E9FFF"
+        android:text="BIODATA MAHASISWA"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
